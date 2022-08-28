@@ -21,6 +21,12 @@ Models were run and evaluated by looking at the balanced accuracy score, confusi
 **Confusion Matrix** - Breaks the number of records into the predicted values and actual values to identify: true positives, true negatives, false positives, and false negatives as seen below.
 ![confusion matrix](/images/cm.png)
 
+**Imbalanced Classification Report** - 
+***Precision*** - How reliable a positive classification is (TP/(TP+FP)
+***Sensitivity/Recall*** - Measure of ability to identify all positive classifications (TP/(TP+FN)
+***F1 Score*** - aka 'Harmonic Mean' summary statistic of both precision and sensitivity (2(Precision*Sensitivity)/(Precision+Sensitivity). A very low F1 score indicates an imbalance between Precision and Sensitivity.
+
+### Model Results
 
 
 ## Summary
