@@ -118,4 +118,8 @@ Models were run and evaluated by looking at the balanced accuracy score, confusi
 ## Summary
 The **EasyEnsembleClassifier** algorithm is by far the most accurate machine learning model used to analyze and predict credit risk. It had a 92.3% balanced accuracy score. It also had the highest precision and sensitivity rankings of any of the other 5 models. Of the 101 high credit risk loans, only 7 loans were not predicted correctly. 
 
+The BalancedRandomForestClassifier model was the next closest with a fair 78.4% accuracy but had 31 high risk loans classified as low risk as compared to the EasyEnsembleClassifier model which only had 7.
+
+The above analysis demonstrates the difficulty in predicting credit risk and unbalanced classifications.
+
 
