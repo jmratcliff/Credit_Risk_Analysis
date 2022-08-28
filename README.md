@@ -30,7 +30,7 @@ Models were run and evaluated by looking at the balanced accuracy score, confusi
 ***F1 Score*** - aka 'Harmonic Mean' summary statistic of both precision and sensitivity (2(Precision*Sensitivity)/(Precision+Sensitivity). A very low F1 score indicates an imbalance between Precision and Sensitivity.
 
 ### Model Results
-**RandomOverSampler** - 
+**RandomOverSampler** - *64.7% accuracy with a high number of both false negatives and false positives. Poor precision and sensitivity*
 
 *Balanced Accuracy Score*
 
@@ -44,7 +44,7 @@ Models were run and evaluated by looking at the balanced accuracy score, confusi
 
 ![ros_icr](/images/ROS_icr.png)
 
-**SMOTE** - 
+**SMOTE** - *Slight improvement in accuracy and sensitivity*
 
 *Balanced Accuracy Score*
 
@@ -58,7 +58,7 @@ Models were run and evaluated by looking at the balanced accuracy score, confusi
 
 ![smote_icr](/images/SMOTE_icr.png)
 
-**ClusterCentroids** - 
+**ClusterCentroids** - *Poor model - decrease in accuracy and sensitivity*
 
 *Balanced Accuracy Score*
 
@@ -72,7 +72,7 @@ Models were run and evaluated by looking at the balanced accuracy score, confusi
 
 ![cc_icr](/images/CC_icr.png)
 
-**SMOTEENN** - 
+**SMOTEENN** - *Improved accuracy but still poor sensitivity*
 
 *Balanced Accuracy Score*
 
@@ -86,7 +86,7 @@ Models were run and evaluated by looking at the balanced accuracy score, confusi
 
 ![smoteenn_icr](/images/SMOTEENN_icr.png)
 
-**BalancedRandomForestClassifier** - 
+**BalancedRandomForestClassifier** - *78.4% accuracy with improved sensitivity*
 
 *Balanced Accuracy Score*
 
@@ -100,7 +100,7 @@ Models were run and evaluated by looking at the balanced accuracy score, confusi
 
 ![brfc_icr](/images/BRFC_icr.png)
 
-**EasyEnsembleClassifier** - 
+**EasyEnsembleClassifier** - *92.3% accuracy with much higher precision and sensitivity*
 
 *Balanced Accuracy Score*
 
