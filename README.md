@@ -12,8 +12,14 @@ Evaluate credit risk using six different machine learning models.  Credit risk i
 
 Models were run and evaluated by looking at the balanced accuracy score, confusion matrix, and imbalanced classification report for each model.
 
-
 ## Results
+*Terms and concepts first defined, followed by the results for each model
+
+### Measures
+**Balanced Accuracy Score** - The difference between the predicted values and the actual values. This measure is problematic when evaluating imbalanced classes because it is important to accurately predict the smaller class.
+
+**Confusion Matrix** - Breaks the number of records into the predicted values and actual values to identify: true positives, true negatives, false positives, and false negatives as seen below.
+![confusion matrix](/images/cm.png)
 
 
 
